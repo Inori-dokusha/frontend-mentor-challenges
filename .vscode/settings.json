@@ -19,6 +19,5 @@
   "prettier.tabWidth": 2,
   "editor.formatOnSave": true,
   // workbench
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "workbench.iconTheme": "vscode-icons"
 }
