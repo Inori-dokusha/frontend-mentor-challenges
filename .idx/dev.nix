@@ -5,7 +5,9 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.nodejs_20
+    pkgs.python313
+    pkgs.nodejs_21
+  
   ];
 
   # Sets environment variables in the workspace
@@ -15,14 +17,9 @@
 
   # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
   idx.extensions = [
- "christian-kohler.path-intellisense"
- "dbaeumer.vscode-eslint"
  "esbenp.prettier-vscode"
- "formulahendry.auto-rename-tag"
- "monokai.theme-monokai-pro-vscode"
- "ritwickdey.LiveServer"
- "usernamehw.errorlens"
- "vscode-icons-team.vscode-icons"];
+ "vscode-icons-team.vscode-icons"
+ "ritwickdey.LiveServer"];
 
   # Enable previews and customize configuration
   idx.previews = {
@@ -36,9 +33,13 @@
         #   "--"
         #   "--port"
         #   "$PORT"
-        #   "--host"
         #   "0.0.0.0"
+        #   "--host"
         #   "--disable-host-check"
+          "python"
+          "-m"
+          "http.server"
+          "$PORT"
         ];
         manager = "web";
         # Optionally, specify a directory that contains your web app
