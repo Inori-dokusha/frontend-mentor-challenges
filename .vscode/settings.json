@@ -3,7 +3,6 @@
   "IDX.aI.enableInlineCompletion": true,
   "IDX.aI.enableCodebaseIndexing": true,
   // editor
-  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
