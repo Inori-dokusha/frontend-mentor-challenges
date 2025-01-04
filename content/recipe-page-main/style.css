@@ -1,0 +1,60 @@
+:root {
+  /* Colors */
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  /* Desktop */
+  --max-width: 1440px;
+  --paragraph: 16px;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Young Serif", serif;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit", sans-serif;
+  src: url(assets/fonts/outfit/Outfit-Regular.ttf) format("ttf");
+}
+
+/* Container */
+.container {
+  max-width: var(--max-width);
+}
+
+/* Global style */
+h1,
+h3,
+h4 {
+  font-family: "Young Serif", serif;
+}
+
+p,
+li,
+a,
+td {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Mediaquery */
+@media screen and (min-width: 375px) {
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
