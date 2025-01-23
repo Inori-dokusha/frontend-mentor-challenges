@@ -7,7 +7,6 @@
   packages = [
     pkgs.python313
     pkgs.nodejs_21
-  
   ];
 
   # Sets environment variables in the workspace
