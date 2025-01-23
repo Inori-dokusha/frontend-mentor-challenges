@@ -1,3 +1,6 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 :root {
   /* For darkmode */
   --bg-darkmode: hsl(230, 17%, 14%);
@@ -18,4 +21,20 @@
   --twitter: hsl(203, 89%, 53%);
   --instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
   --youtube: hsl(348, 97%, 39%);
+}
+
+body {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
